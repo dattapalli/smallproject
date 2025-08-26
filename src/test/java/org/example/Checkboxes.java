@@ -25,5 +25,6 @@ public class Checkboxes {
         for(WebElement checkboxe:checkboxes){
             checkboxe.click();
         }
+        //hgyugkjg
     }
 }
