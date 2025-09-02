@@ -19,17 +19,17 @@ public class Dropdowns {
         //dropdown.selectByIndex(5);
         // dropdown.selectByValue("canada");
         List<WebElement> options = dropdown.getOptions();
-        // System.out.println("Number of list cout"+options.size());
+         System.out.println("Number of list cout"+
+                 options.size());
        /* for(int i=0;i<options.size();i++)
 
         {
     System.out.println(options.get(i).getText());
         }*/
-        for (WebElement op : options) {
+       /* for (WebElement op : options) {
             {
                 System.out.println(op.getText());
 
-            }
+            }*/
         }
     }
-}
